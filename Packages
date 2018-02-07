@@ -1,3 +1,58 @@
+Package: apt7
+Version: 0.7.25.3-9
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: apt7-key, apt7-lib (>= 0.7.25.3-7), berkeleydb, cy+cpu.arm64
+Replaces: apt (<< 1:0-1)
+Filename: debs/apt/apt7_0.7.25.3-9_iphoneos-arm.deb
+Size: 359804
+MD5sum: 59cbbf0a532e369546b59e61f03f6eaf
+SHA1: 9172dac480b6501f050fdc55f86039bae71f92a2
+SHA256: 26a5881cd663e3058241e3e7e4d9604772f9237c983439718a5a2b7864e874ec
+Section: Packaging
+Priority: standard
+Description: the advanced packaging tool from Debian
+Name: APT 0.7 Strict
+
+Package: apt7-key
+Version: 0.7.25.3-4
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: apt7-lib (>= 0.7.25.3-7), cy+cpu.arm64
+Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-4)
+Filename: debs/apt/apt7-key_0.7.25.3-4_iphoneos-arm.deb
+Size: 8446
+MD5sum: a4164c61f4fb5c6b9f560f06c6523f4c
+SHA1: e26a5e61c4a1e8781379314c17c89433d45fc3a5
+SHA256: d051f92d0d0ccecad5373d211b70509fc03d1008660cacb07bacf7431a620316
+Section: Packaging
+Priority: standard
+Description: repository encryption key management tool
+Name: APT 0.7 (apt-key)
+
+Package: apt7-lib
+Version: 0.7.25.3-15
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: bzip2, dpkg (>= 1.14.25-9), gnupg, gzip, lzma, cy+cpu.arm64
+Conflicts: apt7-ssl
+Breaks: cydia (<< 1.1.10), apt7 (<< 0.7.25.3-7), aptitude (<< 0.4.11.11-6)
+Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-3), apt7-ssl
+Provides: apt7-ssl
+Filename: debs/apt/apt7-lib_0.7.25.3-15_iphoneos-arm.deb
+Size: 1393464
+MD5sum: e5afa687831fe4e42950ebb437d84df8
+SHA1: 64d151805ed7dc2c6becfa664d43d26d550ff614
+SHA256: 079d0cab1454fdc08a4e7d74d4f1199a341a1f6c936560c05d7f303c5d53652b
+Section: Packaging
+Priority: required
+Description: the advanced packaging library from Debian
+Name: APT 0.7 Strict (lib)
+
 Package: bash
 Version: 4.4
 Architecture: iphoneos-arm
