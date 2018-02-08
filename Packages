@@ -6,10 +6,10 @@ Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: apt7-key, apt7-lib (>= 0.7.25.3-7), berkeleydb, cy+cpu.arm64
 Replaces: apt (<< 1:0-1)
 Filename: debs/apt/apt7_0.7.25.3-9_iphoneos-arm.deb
-Size: 359804
-MD5sum: 59cbbf0a532e369546b59e61f03f6eaf
-SHA1: 9172dac480b6501f050fdc55f86039bae71f92a2
-SHA256: 26a5881cd663e3058241e3e7e4d9604772f9237c983439718a5a2b7864e874ec
+Size: 359650
+MD5sum: 536d0ef33bd8a1a970ccf43670215c9e
+SHA1: 89bba2221fb21f87b6bc1eb0ff1bb30b947c2101
+SHA256: 674c7488a3d85401c0a4a4f9a2d0da4078d3f08c7a348cecad5f2131fff349e3
 Section: Packaging
 Priority: standard
 Description: the advanced packaging tool from Debian
@@ -23,10 +23,10 @@ Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: apt7-lib (>= 0.7.25.3-7), cy+cpu.arm64
 Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-4)
 Filename: debs/apt/apt7-key_0.7.25.3-4_iphoneos-arm.deb
-Size: 8446
-MD5sum: a4164c61f4fb5c6b9f560f06c6523f4c
-SHA1: e26a5e61c4a1e8781379314c17c89433d45fc3a5
-SHA256: d051f92d0d0ccecad5373d211b70509fc03d1008660cacb07bacf7431a620316
+Size: 8278
+MD5sum: adcef9cc5c200fb800f00d56feb37970
+SHA1: eb08ded37c6f1fcccdd285428131c2c9dc87b378
+SHA256: e6dcf20b0cde59bd657608959615d9a008d114225234807148b0afdb433cd5a4
 Section: Packaging
 Priority: standard
 Description: repository encryption key management tool
@@ -44,10 +44,10 @@ Breaks: cydia (<< 1.1.10), apt7 (<< 0.7.25.3-7), aptitude (<< 0.4.11.11-6)
 Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-3), apt7-ssl
 Provides: apt7-ssl
 Filename: debs/apt/apt7-lib_0.7.25.3-15_iphoneos-arm.deb
-Size: 1393464
-MD5sum: e5afa687831fe4e42950ebb437d84df8
-SHA1: 64d151805ed7dc2c6becfa664d43d26d550ff614
-SHA256: 079d0cab1454fdc08a4e7d74d4f1199a341a1f6c936560c05d7f303c5d53652b
+Size: 1369302
+MD5sum: 37510452b7666c50ff1076ac53c8f3f9
+SHA1: bc062f8095bb777d8a0d0db7ca6c760070707939
+SHA256: 7523226429b42b5e74474ac6589792937bdb3e1a8bd6033e70c48bae71428a5c
 Section: Packaging
 Priority: required
 Description: the advanced packaging library from Debian
@@ -76,10 +76,10 @@ Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: cy+cpu.arm64
 Filename: debs/berkeleydb_6.2.23_iphoneos-arm.deb
-Size: 12884396
-MD5sum: 311c9960e0c113e76e53dd701ba5c98d
-SHA1: 445481054f310689308642b2bbf063c5e2360a4d
-SHA256: 1d27cf4cfff1984321a8f889781723a076d729bb39e75afafaab860ca5c9ada4
+Size: 12878488
+MD5sum: b95408969cb48bdb028782233102db59
+SHA1: 4c00c63c2961f4a6b16b68676e87ee8c7f3cc103
+SHA256: 2954649bdce630f1962c32f270a3afc5b31df346d1194451209e673e31cda3db
 Section: Data_Storage
 Priority: standard
 Homepage: http://www.oracle.com/technology/products/berkeley-db/index.html
@@ -212,10 +212,10 @@ Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: tar (>= 1.23)
 Depends: bash, bzip2, coreutils-bin, diffutils, findutils, gzip, lzma, ncurses, tar, cy+cpu.arm64
 Filename: debs/dpkg_1.18.24_iphoneos-arm.deb
-Size: 380438
-MD5sum: b2dcd6adf26edb57ca9a2a7a45ded8ce
-SHA1: ff2191f28248c33fd4a1eed3b13a15419a9a7a98
-SHA256: 7b9b87fdf3ff34f4a0e85a3a312995be06f0e68c5df69849a256d9011c244f47
+Size: 380770
+MD5sum: 6db8b700bb6e1717574287e6f5ed11a4
+SHA1: 38ce4011fa4f516dbc6d3dcb4f5b3241c08af91d
+SHA256: d16e74536d7fb53155d84a9fbc63bcf9488dd213d203438a122ac896c269a396
 Section: Packaging
 Priority: required
 Homepage: http://wiki.debian.org/Teams/Dpkg
@@ -276,10 +276,10 @@ Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: gcrypt, npth, libassuan, libksba, cy+cpu.arm64
 Filename: debs/gnupg2/gnupg2_2.2.3_iphoneos-arm.deb
-Size: 1215590
-MD5sum: 0696161c6309eeb9e12f13686a158e50
-SHA1: 2ba77e0626715213dade59749b6d81a0c557a679
-SHA256: de0595c6669d3e423cfa8eb2073ef2d616abdc46c3e7a94e37a5505526e3673b
+Size: 1187586
+MD5sum: 471762bae8c82a374e850883c014c797
+SHA1: 271976c2b59954f7534af324df5f06f4f8bf9aec
+SHA256: 5cba115b7844c031f87ebfc574aea3591cc9787f0cf86dec2caedd3482e8e950
 Section: Security
 Priority: optional
 Description: newer encryption compatible with OpenPGP
@@ -415,10 +415,10 @@ Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: cy+cpu.arm64
 Filename: debs/gnupg2/npth_1.5_iphoneos-arm.deb
-Size: 13882
-MD5sum: 66fa4d4e6e26a607101d85baafe0a73c
-SHA1: 88e0d6599755bcaee5790e59375237711b375f69
-SHA256: 262abdc74e6a88adeaccb45e99ef4c02b1a6e4d4a74652b67ec971bf76268c07
+Size: 13862
+MD5sum: 6208e3a16c0a77b221cb7d1224606f3f
+SHA1: 6d0337cb124c036bd17aa6560fcf04129cf55c25
+SHA256: ca5d1543d40cda820e34a4a1b71faa8b836d122cb04730f201b5812360b7907b
 Section: Development
 Priority: optional
 Description: The New GNU Portable Threads Library
