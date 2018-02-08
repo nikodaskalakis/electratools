@@ -362,22 +362,6 @@ Priority: optional
 Description: GnuPG's certification management library
 Name: KSBA
 
-Package: lz4
-Version: 1.7.5-1
-Architecture: iphoneos-arm
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Depends: cy+cpu.arm64
-Filename: debs/lz4_1.7.5-1_iphoneos_arm.deb
-Size: 81530
-MD5sum: e8c86cce2258df5c36e6fc86006d8dfe
-SHA1: c8a3186e744cf93ac128032ead06a38a434dc5d7
-SHA256: 23a6a05ed8c26531a7464818d493c7095de0d2588299604b4d57d90b02461c37
-Section: Archiving
-Priority: important
-Homepage: http://www.lz4.org
-Description: Extremely Fast Compression algorithm
-Name: lz4
-
 Package: lzma
 Version: 5.2.3
 Architecture: iphoneos-arm
