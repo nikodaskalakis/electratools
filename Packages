@@ -129,10 +129,10 @@ Depends: cy+cpu.arm64
 Replaces: shell-cmds (<< 118-5), coreutils (<= 7.2-9)
 Provides: dirname, kill, mktemp
 Filename: debs/coreutils-bin_8.28_iphoneos-arm.deb
-Size: 366390
-MD5sum: a323fcc7509b5a59b110a80597cf70e8
-SHA1: bccebe756e7272758da758bd75c5a3dffb9ff2ca
-SHA256: 4e19d66a69122dc17483f2b5e3d8a86c77fc1d9c251b6fd546b3139599d48f94
+Size: 375338
+MD5sum: 51aa8cd1e5d7d9d89c6c6b6b4eccfc25
+SHA1: 7dbd32fd6334222be66e2537a3b1b541bd58abe1
+SHA256: bcd1b2b1bd968a538a35de3b315a511b8d1c44299faaf8fa11533e7d35f727f2
 Section: Utilities
 Priority: required
 Homepage: http://www.gnu.org/software/coreutils/
