@@ -235,10 +235,10 @@ Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: tar (>= 1.23)
 Depends: bash, bzip2, coreutils-bin, diffutils, findutils, gzip, lzma, ncurses, tar, cy+cpu.arm64
 Filename: debs/dpkg_1.18.24_iphoneos-arm.deb
-Size: 380770
-MD5sum: 6db8b700bb6e1717574287e6f5ed11a4
-SHA1: 38ce4011fa4f516dbc6d3dcb4f5b3241c08af91d
-SHA256: d16e74536d7fb53155d84a9fbc63bcf9488dd213d203438a122ac896c269a396
+Size: 744920
+MD5sum: ab98195ae4704be688ff1bbc08604891
+SHA1: 0767d9d3516a6a388062f1a2495a36079f664167
+SHA256: 17d6084e0781ad361f720f4f8aa5e8c9508f9efeaba4d08b41ed73e1eebdfe15
 Section: Packaging
 Priority: required
 Homepage: http://wiki.debian.org/Teams/Dpkg
@@ -391,10 +391,10 @@ Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: grep, sed, cy+cpu.arm64
 Filename: debs/lzma_5.2.3_iphoneos-arm.deb
-Size: 350468
-MD5sum: 0f8f13047bfdbc9bf41414a3243f14e4
-SHA1: 91fd52c2b383600772884b7230de972b000b88e0
-SHA256: 2c98643695b01f27c77c78b7669d06a477a72f142147913306842abbe2d38321
+Size: 621554
+MD5sum: b79058e2f9744be0b69233a576c8a606
+SHA1: 920644ffd5e19a9f6c99fdf7ae6a07aac9a00ae9
+SHA256: 1efff4ec4f27f263bb6ab1ea77ebb2bcef86c5288be3d41da4ece7dc070bd1e8
 Section: Archiving
 Priority: important
 Homepage: https://tukaani.org/xz/
