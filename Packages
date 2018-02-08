@@ -6,10 +6,10 @@ Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: apt7-key, apt7-lib (>= 0.7.25.3-7), berkeleydb, cy+cpu.arm64
 Replaces: apt (<< 1:0-1)
 Filename: debs/apt/apt7_0.7.25.3-9_iphoneos-arm.deb
-Size: 359762
-MD5sum: a107e8b1e84724ed0e9b06bc6a361996
-SHA1: 9d02408e2fa57692ba1207132deb3f68966274f7
-SHA256: 99f6cdd87aaad4f92372a30350799c865bd38f813f80b8cf9a1ddadcf34a6877
+Size: 359886
+MD5sum: 4b56a509852c659f3f80cb144c1cda00
+SHA1: 627fef1dfbd7ebebebfbc7406667343ac24db662
+SHA256: 24a9df56034b14ba2b8f69f27b2eef753ee8a7301cb96da305f3594a7086934b
 Section: Packaging
 Priority: standard
 Description: the advanced packaging tool from Debian
@@ -24,9 +24,9 @@ Depends: apt7-lib (>= 0.7.25.3-7), cy+cpu.arm64
 Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-4)
 Filename: debs/apt/apt7-key_0.7.25.3-4_iphoneos-arm.deb
 Size: 8278
-MD5sum: 42c5b608589688ce21970a3714359e6b
-SHA1: 79f8f9f77c89d7d3031b13ee16c2625c69b5a823
-SHA256: ae871422e8167060d2491ac6af702a7ae9b70af0077b7fcc36eb5124a0caede7
+MD5sum: 4d9af8cc58418d59664e1da983c98d48
+SHA1: 76339cd5ec7f95a1ba4c605161711953c8ba5a03
+SHA256: e4ac6cc2a5a3a803097a8cd654c69bcf540e44fb5591940d2279648a25d766b7
 Section: Packaging
 Priority: standard
 Description: repository encryption key management tool
@@ -44,10 +44,10 @@ Breaks: cydia (<< 1.1.10), apt7 (<< 0.7.25.3-7), aptitude (<< 0.4.11.11-6)
 Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-3), apt7-ssl
 Provides: apt7-ssl
 Filename: debs/apt/apt7-lib_0.7.25.3-15_iphoneos-arm.deb
-Size: 1367274
-MD5sum: dddc2fdca0dd44c59696579d3ef329a7
-SHA1: b586d3fd4e4a54fa7182109739d7e408a0d91825
-SHA256: a9cd2c9505dcba769cd5c569d621a09c0bfaac0efeaab75a2f0982e43016f01c
+Size: 1352038
+MD5sum: c38d29e080990121ba28350829afcc32
+SHA1: aa68f3120a922429ddcc71dba7bbcf979be2b33f
+SHA256: 1d7cac562ab26b5f5fc1e13775718cab06e05d49d945f672a5babf48fc957e4f
 Section: Packaging
 Priority: required
 Description: the advanced packaging library from Debian
