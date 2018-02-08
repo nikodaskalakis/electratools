@@ -512,10 +512,10 @@ Maintainer: CoolStar <coolstarorganization@gmail.com>
 Installed-Size: 944
 Depends: coreutils-bin, cy+cpu.arm64
 Filename: debs/uikittools_1.1.12-coolstar_iphoneos-arm.deb
-Size: 21662
-MD5sum: 121714beba70c5e8fa908a96aade5077
-SHA1: e6aef3e8b4fd0e3ae8f39210eee6baae8d11eef9
-SHA256: bda5b0e5236a86d2915b1dbb883439429ee315061d123d8edb659dc5c4cef2e2
+Size: 23898
+MD5sum: 73a31f0efbb51521973818ce6686870d
+SHA1: 1a9abebc1b1bf8d5cdbeb1cd515a01e56894997e
+SHA256: ead63f7156f863a7542a7ccf03076af226fc029cc4ae9096d75b49070c5bc019
 Section: Utilities
 Priority: optional
 Description: UIKit/GraphicsServices command line access
