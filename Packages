@@ -110,10 +110,10 @@ Depends: bash, coreutils-bin (>= 7.4-5), profile.d, cy+cpu.arm64
 Replaces: netatalk (<= 2.0.3-6)
 Provides: md5sum, sha1sum
 Filename: debs/coreutils_8.28_iphoneos-arm.deb
-Size: 734492
-MD5sum: abd106aa801699c41445ca7617e4a63a
-SHA1: 233676f3a263e518a61d4cc03b53fbe584430738
-SHA256: f8acbae39ed5761e2fcce91334d8246eefae655ff75f2e806de988f9b9c31bcb
+Size: 730320
+MD5sum: 0c42fcaf8c9967fe067e98e02e7b8ccb
+SHA1: 5a1e46751186f231e261606af162193e3baf8bae
+SHA256: 65d36b1b8a42efa0f1e0da4833ade0e7a84e07190a991386ca0ee26a6dd62beb
 Section: Utilities
 Priority: standard
 Homepage: http://www.gnu.org/software/coreutils/
