@@ -6,10 +6,10 @@ Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: apt7-key, apt7-lib (>= 0.7.25.3-7), berkeleydb, cy+cpu.arm64
 Replaces: apt (<< 1:0-1)
 Filename: debs/apt/apt7_0.7.25.3-9_iphoneos-arm.deb
-Size: 359650
-MD5sum: 536d0ef33bd8a1a970ccf43670215c9e
-SHA1: 89bba2221fb21f87b6bc1eb0ff1bb30b947c2101
-SHA256: 674c7488a3d85401c0a4a4f9a2d0da4078d3f08c7a348cecad5f2131fff349e3
+Size: 359762
+MD5sum: a107e8b1e84724ed0e9b06bc6a361996
+SHA1: 9d02408e2fa57692ba1207132deb3f68966274f7
+SHA256: 99f6cdd87aaad4f92372a30350799c865bd38f813f80b8cf9a1ddadcf34a6877
 Section: Packaging
 Priority: standard
 Description: the advanced packaging tool from Debian
@@ -24,9 +24,9 @@ Depends: apt7-lib (>= 0.7.25.3-7), cy+cpu.arm64
 Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-4)
 Filename: debs/apt/apt7-key_0.7.25.3-4_iphoneos-arm.deb
 Size: 8278
-MD5sum: adcef9cc5c200fb800f00d56feb37970
-SHA1: eb08ded37c6f1fcccdd285428131c2c9dc87b378
-SHA256: e6dcf20b0cde59bd657608959615d9a008d114225234807148b0afdb433cd5a4
+MD5sum: 42c5b608589688ce21970a3714359e6b
+SHA1: 79f8f9f77c89d7d3031b13ee16c2625c69b5a823
+SHA256: ae871422e8167060d2491ac6af702a7ae9b70af0077b7fcc36eb5124a0caede7
 Section: Packaging
 Priority: standard
 Description: repository encryption key management tool
@@ -38,16 +38,16 @@ Architecture: iphoneos-arm
 Essential: yes
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: bzip2, dpkg (>= 1.14.25-9), gnupg, gzip, lzma, lz4, cy+cpu.arm64
+Depends: bzip2, dpkg (>= 1.14.25-9), gnupg, gzip, lzma, cy+cpu.arm64
 Conflicts: apt7-ssl
 Breaks: cydia (<< 1.1.10), apt7 (<< 0.7.25.3-7), aptitude (<< 0.4.11.11-6)
 Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-3), apt7-ssl
 Provides: apt7-ssl
 Filename: debs/apt/apt7-lib_0.7.25.3-15_iphoneos-arm.deb
-Size: 1369306
-MD5sum: 9388f8ba2769a73bf24aa5bfb47c4ea9
-SHA1: b96fcf5062c17db3f44292470bfedd88a26fa0f3
-SHA256: 6a017179bf8117466c1baba654b78906f6af7ce16be02f9eb19eee459ee7c68f
+Size: 1367274
+MD5sum: dddc2fdca0dd44c59696579d3ef329a7
+SHA1: b586d3fd4e4a54fa7182109739d7e408a0d91825
+SHA256: a9cd2c9505dcba769cd5c569d621a09c0bfaac0efeaab75a2f0982e43016f01c
 Section: Packaging
 Priority: required
 Description: the advanced packaging library from Debian
