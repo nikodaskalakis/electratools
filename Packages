@@ -156,6 +156,29 @@ Homepage: http://curl.haxx.se/
 Description: flexible multi-protocol file transfers
 Name: cURL
 
+Package: cydia
+Version: 1.1.30-coolstar
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: debianutils, dpkg (>= 1.14.25-8)
+Depends: apt7-lib, apt7-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), cy+cpu.arm64
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Provides: bigbossbetarepo, cydia-sources
+Filename: debs/cydia_1.1.30-coolstar_iphoneos-arm.deb
+Size: 1306644
+MD5sum: cc4634e945cf519c731a260a2239dd8a
+SHA1: 6be7ba8e8b8df49dd2fbd3e60743573653b90b97
+SHA256: e656e0225ee97b769279e9e605e8a24ad38b79443d6e6efe547f8e45324972d9
+Section: Packaging
+Priority: required
+Description: graphical iPhone front-end for APT
+Tag: purpose::uikit, cydia::essential, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Name: Cydia Installer
+
 Package: darwintools
 Version: 1-6
 Architecture: iphoneos-arm
