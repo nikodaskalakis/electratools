@@ -166,10 +166,10 @@ Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispa
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Provides: bigbossbetarepo, cydia-sources
 Filename: debs/cydia_1.1.30-coolstar_iphoneos-arm.deb
-Size: 1306544
-MD5sum: 2bc2757cb384e00e8349e84f815447b1
-SHA1: 091bd7d9775da43b84d5180a4774bbccbee1540f
-SHA256: a271fd22a4210061bfe43e684c9ee3dce4194034511ff6df797542db5115dde9
+Size: 1164524
+MD5sum: 8f166b8231c748fcfb2bcb2d60bd20f9
+SHA1: cbd0f1e4e82b57668591bb13a8b34c4d25967d6b
+SHA256: 48f4c77c785e800ee244ab09e0c399c12673b0628dab1b11a7dfb10d3bb0b99a
 Section: Packaging
 Priority: required
 Description: graphical iPhone front-end for APT
