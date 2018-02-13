@@ -44,10 +44,10 @@ Breaks: cydia (<< 1.1.10), apt7 (<< 0.7.25.3-7), aptitude (<< 0.4.11.11-6)
 Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-3), apt7-ssl
 Provides: apt7-ssl
 Filename: debs/apt/apt7-lib_0.7.25.3-15_iphoneos-arm.deb
-Size: 1352038
-MD5sum: c38d29e080990121ba28350829afcc32
-SHA1: aa68f3120a922429ddcc71dba7bbcf979be2b33f
-SHA256: 1d7cac562ab26b5f5fc1e13775718cab06e05d49d945f672a5babf48fc957e4f
+Size: 1352610
+MD5sum: 112c11f7e78c329053ae392e0dd5c9b7
+SHA1: 976265e969984755f6796e79faa26958ea26c2ab
+SHA256: 21fcfd764157456d5c6290beb897ce7f17b65a1ccb51603b6a3d76083e0f3bb6
 Section: Packaging
 Priority: required
 Description: the advanced packaging library from Debian
@@ -251,10 +251,10 @@ Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: tar (>= 1.23)
 Depends: bash, bzip2, coreutils-bin, diffutils, findutils, gzip, lzma, ncurses, tar, cy+cpu.arm64
 Filename: debs/dpkg_1.18.24_iphoneos-arm.deb
-Size: 744920
-MD5sum: ab98195ae4704be688ff1bbc08604891
-SHA1: 0767d9d3516a6a388062f1a2495a36079f664167
-SHA256: 17d6084e0781ad361f720f4f8aa5e8c9508f9efeaba4d08b41ed73e1eebdfe15
+Size: 745034
+MD5sum: 10734aebcd614b977ee1445741cf141d
+SHA1: 48b70ec56a1f08e02891240416ad97db14e91f56
+SHA256: e912105ced64ca9066f176ef77208ec975e96339fbc6f6e7ea4ec59758542b08
 Section: Packaging
 Priority: required
 Homepage: http://wiki.debian.org/Teams/Dpkg
