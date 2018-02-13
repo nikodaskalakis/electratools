@@ -101,6 +101,22 @@ Priority: important
 Homepage: http://www.bzip.org/
 Description: compression that's slightly better than gzip
 
+Package: com.ex.libsubstitute
+Version: 0.0.2-coolstar
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 11.0), cy+cpu.arm64
+Filename: debs/com.ex.libsubstitute_0.0.2-coolstar_iphoneos-arm.deb
+Size: 20256
+MD5sum: b07ced38a4e04e525aafe0d07da44ca6
+SHA1: 8834e55d6eebc0c08fc7256449eac9c8f3e92cba
+SHA256: 5e57e56474548df68ee2089385d3160db4458ecb3cde0989f64f56c3916b8272
+Section: System
+Priority: optional
+Description: Substrate substitute for code substitution (library only)
+Author: comex <comexk+da@gmail.com>
+Name: Substitute
+
 Package: coreutils
 Version: 8.28
 Architecture: iphoneos-arm
@@ -480,6 +496,21 @@ Section: Security
 Priority: standard
 Description: SSL library and cryptographic tools
 Name: OpenSSL
+
+Package: org.coolstar.tweakinject
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 10.0), cy+cpu.arm64, com.ex.libsubstitute
+Filename: debs/org.coolstar.tweakinject_1.0_iphoneos-arm.deb
+Size: 16716
+MD5sum: 17057ed42041bd9d1d29cbb9b39b92e7
+SHA1: d1340782ec7344cb36bc6e677534ee16f8e5ab16
+SHA256: 72a47947760e66457d4dc4898c1607030d441a087167c91a707b5bc722de9c4e
+Section: System
+Description: General purpose tweak loader with safe mode in case of crashes
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: Tweak Injector
 
 Package: sed
 Version: 4.2.2
