@@ -464,16 +464,16 @@ Description: The New GNU Portable Threads Library
 Name: New GNU Portable Threads
 
 Package: openssh
-Version: 7.6p1-1
+Version: 7.6p1-2
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: openssl, cy+cpu.arm64
-Filename: debs/openssh_7.6p1-1_iphoneos-arm.deb
-Size: 498050
-MD5sum: 42c1c87d189623043eaee8b61ccf6549
-SHA1: 3dcb19279a020dd5b4d4549d7e281a5210b6a113
-SHA256: 5fd5e7bbf1da8bce84760dc6b094c6a616b3101f18a00a755860281800443582
+Filename: debs/openssh_7.6p1-2_iphoneos-arm.deb
+Size: 497724
+MD5sum: a554a51a2807f7ce638fa06e38859a96
+SHA1: a7ee876522100cccf68cc7d13940e40bba97b831
+SHA256: 035374e7462a48704390a491c113d2fd0804fdb577f53857ca79ce7ac9e8e7c9
 Section: Networking
 Priority: important
 Description: secure remote access between machines
