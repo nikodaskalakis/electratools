@@ -1,0 +1,15 @@
+Package: mobilesubstrate
+Version: 99.0
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: org.coolstar.tweakinject, com.ex.libsubstitute, cy+cpu.arm64
+Filename: debs/mobilesubstrate_99.0_iphoneos-arm.deb
+Size: 2724
+MD5sum: 5d951a9de3c708fc452184e0dccaea01
+SHA1: 53ae841ffe0e903fe90a5160b84fb04c7bd68e38
+SHA256: ba3dcadd045c39640952cb17a126e4a3612b4aba70f7b3c2d751712993127ee6
+Section: System
+Description: Compatibility wrapper for Substrate tweaks to work with Tweak Injector + Substitute
+Author: CoolStar <coolstarorganization@gmial.com>
+Name: Substrate Compatibility Layer
+
