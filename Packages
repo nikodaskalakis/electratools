@@ -512,6 +512,22 @@ Description: General purpose tweak loader with safe mode in case of crashes
 Author: CoolStar <coolstarorganization@gmail.com>
 Name: Tweak Injector
 
+Package: p7zip
+Version: 16.02
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Filename: debs/p7zip_16.02_iphoneos-arm.deb
+Size: 923546
+MD5sum: a73e907822a0fab296afa01166ad98ae
+SHA1: 79fac68eb3a18dc702ffde10247a5861f3910fa1
+SHA256: 3e64d65759bb9383e7711bab17ccb5eae06d6df48a125816074292993f49ed70
+Section: Archiving
+Priority: optional
+Description: A port of 7za.exe for POSIX systems like Unix
+Tag: purpose::console, role::hacker
+Name: 7-zip (POSIX)
+
 Package: sed
 Version: 4.2.2
 Architecture: iphoneos-arm
