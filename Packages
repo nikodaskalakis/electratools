@@ -596,6 +596,21 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/uikittools/
 Name: UIKit Tools
 
+Package: unrar
+Version: 5.5.8
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Filename: debs/unrar_5.5.8_iphoneos-arm.deb
+Size: 102032
+MD5sum: 498260e022c996a4262d6a4688f878ba
+SHA1: 52e3b69473824b2bd4e117ba416becd3a22adbc2
+SHA256: be0127fb33af3ad3311f5f617eb18c1c6d41aad561bb7bad253b98a37de2e794
+Section: Archiving
+Priority: optional
+Description: de-compresses files in rar format
+Tag: purpose::console, role::hacker
+
 Package: unzip
 Version: 6.0
 Architecture: iphoneos-arm
