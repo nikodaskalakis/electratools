@@ -596,3 +596,33 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/uikittools/
 Name: UIKit Tools
 
+Package: unzip
+Version: 6.0
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Filename: debs/unzip_6.0_iphoneos-arm.deb
+Size: 74216
+MD5sum: 368716c2350561c03a8e52d255f2dedb
+SHA1: f5ef505a154939e983d82c4aa3cdd32c3bdca676
+SHA256: 401de073be523ed48f1809caf313a1c9bf0d1ce468b2dd8dd71f7d26c3d200a4
+Section: Archiving
+Priority: important
+Description: de-compesses files in zip format
+Tag: purpose::console, role::hacker
+
+Package: zip
+Version: 3.0
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Filename: debs/zip_3.0_iphoneos-arm.deb
+Size: 96966
+MD5sum: 9a7540020edafea8c4cacc305d105e07
+SHA1: 89d1bc50745ecd804d8c4cc7dc5c3338b2f54eae
+SHA256: 2f8274de2a2b64607cf021ef57f71a8e1e1e4feb3b9e17df8a5a657688ae5041
+Section: Archiving
+Priority: important
+Description: standard Windows compression tool
+Tag: purpose::console, role::hacker
+
