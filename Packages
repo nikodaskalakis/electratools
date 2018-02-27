@@ -33,7 +33,7 @@ Description: repository encryption key management tool
 Name: APT 0.7 (apt-key)
 
 Package: apt7-lib
-Version: 0.7.25.3-15
+Version: 0.7.25.3-16-coolstar
 Architecture: iphoneos-arm
 Essential: yes
 Maintainer: CoolStar <coolstarorganization@gmail.com>
@@ -43,11 +43,11 @@ Conflicts: apt7-ssl
 Breaks: cydia (<< 1.1.10), apt7 (<< 0.7.25.3-7), aptitude (<< 0.4.11.11-6)
 Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-3), apt7-ssl
 Provides: apt7-ssl
-Filename: debs/apt/apt7-lib_0.7.25.3-15_iphoneos-arm.deb
-Size: 1352610
-MD5sum: 112c11f7e78c329053ae392e0dd5c9b7
-SHA1: 976265e969984755f6796e79faa26958ea26c2ab
-SHA256: 21fcfd764157456d5c6290beb897ce7f17b65a1ccb51603b6a3d76083e0f3bb6
+Filename: debs/apt/apt7-lib_0.7.25.3-16-coolstar_iphoneos-arm.deb
+Size: 1351882
+MD5sum: edf46841ee44f25c20727d926fb4bf97
+SHA1: 8d7ce51b2c1d04dac8d822e810937fa32046cc81
+SHA256: faf702a23ce54a8ca956978c6f152718d2bff71d41f9846c048b95512b9e9918
 Section: Packaging
 Priority: required
 Description: the advanced packaging library from Debian
