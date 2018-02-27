@@ -76,10 +76,10 @@ Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: cy+cpu.arm64
 Filename: debs/berkeleydb_6.2.23_iphoneos-arm.deb
-Size: 12878488
-MD5sum: b95408969cb48bdb028782233102db59
-SHA1: 4c00c63c2961f4a6b16b68676e87ee8c7f3cc103
-SHA256: 2954649bdce630f1962c32f270a3afc5b31df346d1194451209e673e31cda3db
+Size: 1076876
+MD5sum: eb16321c83d6790caab9aac764323b60
+SHA1: d4153df6de64d1becfb3b58b6d575b2a63e68932
+SHA256: cb8a5f897a58a5d0f7c6ed432223ec0fd705a9f6b47c17ae0bf6caa1304d38c1
 Section: Data_Storage
 Priority: standard
 Homepage: http://www.oracle.com/technology/products/berkeley-db/index.html
