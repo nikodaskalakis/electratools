@@ -659,6 +659,22 @@ Priority: important
 Description: de-compesses files in zip format
 Tag: purpose::console, role::hacker
 
+Package: uuid
+Version: 1.6.2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Filename: debs/uuid_1.6.2_iphoneos-arm.deb
+Size: 23222
+MD5sum: 6972c534ed27bfe1af3b1f7fd757a30e
+SHA1: 880c6b60f1cdd53cd84518dfc52d8243f358be90
+SHA256: 778662d5a8b832697a0575efcfc5d2483060a04ebabbba1d5c995d09969cf35d
+Section: System
+Priority: important
+Description: universally unique identifiers
+Tag: purpose::library, purpose::console, role::developer
+Name: UUID Generator
+
 Package: wget
 Version: 1.19
 Architecture: iphoneos-arm
