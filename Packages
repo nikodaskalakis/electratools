@@ -156,16 +156,16 @@ Description: just the /bin folder from GNU coreutils
 Name: Core Utilities (/bin)
 
 Package: curl
-Version: 7.50.1-1
+Version: 7.50.1-2
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: openssl, cy+cpu.arm64
-Filename: debs/curl_7.50.1-1_iphoneos-arm.deb
-Size: 456500
-MD5sum: 1beaf731db9b18cab610186739abb218
-SHA1: 3d3309507f084d80f400a43aa6173853e75029a2
-SHA256: 20e5339d8796c833d366383cbc1999e79bfcece5414b6fd618319e7c06409a06
+Filename: debs/curl_7.50.1-2_iphoneos-arm.deb
+Size: 456746
+MD5sum: c8698575a337c85b801b36dee04f9a0a
+SHA1: 5111d0f053cb0374305459271a0036946ac06038
+SHA256: e57c2e1362b857ae6a26346945eb286cf5dffc182dc2fd80ae46e230a057f290
 Section: Networking
 Priority: standard
 Homepage: http://curl.haxx.se/
@@ -657,6 +657,22 @@ SHA256: 401de073be523ed48f1809caf313a1c9bf0d1ce468b2dd8dd71f7d26c3d200a4
 Section: Archiving
 Priority: important
 Description: de-compesses files in zip format
+Tag: purpose::console, role::hacker
+
+Package: wget
+Version: 1.19
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64, openssl
+Filename: debs/wget_1.1.9_iphoneos-arm.deb
+Size: 751258
+MD5sum: aab325077a2c5320de37e314eeb928e2
+SHA1: 0f5981d07f71ea92e1e1f6a2c85afafe0a384720
+SHA256: b449e9d006ed7906da49d6ca704ea7e22366a71fd2b1919602a20bad96f8d696
+Section: Networking
+Priority: important
+Description: simple HTTP file transfer client
 Tag: purpose::console, role::hacker
 
 Package: zip
