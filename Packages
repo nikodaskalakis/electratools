@@ -102,15 +102,15 @@ Homepage: http://www.bzip.org/
 Description: compression that's slightly better than gzip
 
 Package: com.ex.libsubstitute
-Version: 0.0.3-coolstar
+Version: 0.0.4-coolstar
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 8.0), cy+cpu.arm64
-Filename: debs/com.ex.libsubstitute_0.0.3-coolstar_iphoneos-arm.deb
-Size: 20268
-MD5sum: 1de9194455f62f5fe99effad32b14fc6
-SHA1: da80937e4b68fba4ecd358da9b45883aee3543a8
-SHA256: 234be88e2531211e6b2ae4f1779e50dc178b52a273d1872754705d59e0c4c2ef
+Filename: debs/com.ex.libsubstitute_0.0.4-coolstar_iphoneos-arm.deb
+Size: 40920
+MD5sum: e3876469ae2a541a7b36942e970cab80
+SHA1: a3a94a63997386b7564f3bebea2098acae3a6537
+SHA256: 74941be4666e78f9818ad954bd25e0a2407bbb28756304f12fa446f713e147fd
 Section: System
 Priority: optional
 Description: Substrate substitute for code substitution (library only)
