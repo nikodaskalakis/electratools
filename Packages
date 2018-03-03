@@ -102,15 +102,15 @@ Homepage: http://www.bzip.org/
 Description: compression that's slightly better than gzip
 
 Package: com.ex.libsubstitute
-Version: 0.0.4-coolstar
+Version: 0.0.5-coolstar
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 8.0), cy+cpu.arm64
-Filename: debs/com.ex.libsubstitute_0.0.4-coolstar_iphoneos-arm.deb
-Size: 40920
-MD5sum: e3876469ae2a541a7b36942e970cab80
-SHA1: a3a94a63997386b7564f3bebea2098acae3a6537
-SHA256: 74941be4666e78f9818ad954bd25e0a2407bbb28756304f12fa446f713e147fd
+Filename: debs/com.ex.substitute_0.0.5-coolstar_iphoneos-arm.deb
+Size: 20076
+MD5sum: 9002693272b73771e0668664925cdd03
+SHA1: 1cbf140a16d26f5e7416c5fd0633349d76335941
+SHA256: 8d350bd64a1fb2728598c6ee18a934f74bb9af4379371ab4106297feeabac3ca
 Section: System
 Priority: optional
 Description: Substrate substitute for code substitution (library only)
@@ -416,6 +416,22 @@ Priority: important
 Homepage: https://tukaani.org/xz/
 Description: slower, but better, compression algorithm
 Name: XZ Utils
+
+Package: make
+Version: 4.2.1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Filename: debs/make_4.2.1_iphoneos-arm.deb
+Size: 86938
+MD5sum: 8cf0c925130edb4f4313ff2517cceddb
+SHA1: 95d60de95e0142ee23941ccd833bed6de207a530
+SHA256: 3560fb7b72bb3820496ffe2cd92333a982b603d6563e8b2503f57048baf9c098
+Section: Development
+Priority: important
+Description: dependency-based build environments
+Tag: purpose::console, role::hacker
+Name: Make
 
 Package: nano
 Version: 2.9.1
