@@ -355,6 +355,24 @@ Priority: required
 Homepage: http://www.gzip.org/
 Description: the standard Unix compression algorithm
 
+Package: ldid
+Version: 2:1.2.2-coolstar
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Installed-Size: 272
+Filename: debs/ldid_2_1.2.2-coolstar_iphoneos-arm.deb
+Size: 25788
+MD5sum: 3802638347a4e001662437b91e5ba692
+SHA1: c6f17e5f6a8ebbf488b69e98b458f1935c6c0a07
+SHA256: 4655e97f67496dee047de14c36158c8865478181d5b1eb9f87fa5f4937a65365
+Section: Development
+Priority: optional
+Description: pseudo-codesign Mach-O files
+Tag: purpose::console, role::developer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/ldid/
+Name: Link Identity Editor
+
 Package: libassuan
 Version: 2.5.1
 Architecture: iphoneos-arm
