@@ -532,15 +532,15 @@ Description: SSL library and cryptographic tools
 Name: OpenSSL
 
 Package: org.coolstar.tweakinject
-Version: 1.0.2
+Version: 1.0.3
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 10.0), cy+cpu.arm64, com.ex.libsubstitute
-Filename: debs/org.coolstar.tweakinject_1.0.2_iphoneos-arm.deb
-Size: 16972
-MD5sum: 659ff5095121aa97a956da057ee17af5
-SHA1: 7c53cdc71f9cf6d0e1ed20a0af4d5e740a532c52
-SHA256: 848802a2e51f0cbe97d2d260f8d8ee651bf264f1a82d3db832abd27de988c329
+Filename: debs/org.coolstar.tweakinject_1.0.3_iphoneos-arm.deb
+Size: 17288
+MD5sum: e8203b9122d2698a47c1b5af6cf123ca
+SHA1: e44dec30422bda55e39535c3a7d82a07d077a7ed
+SHA256: 97fac254cc5f9c87974848fabdd6fdd1401512b97e6490c466b3d647114f0628
 Section: System
 Description: General purpose tweak loader with safe mode in case of crashes
 Author: CoolStar <coolstarorganization@gmail.com>
