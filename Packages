@@ -531,6 +531,22 @@ Priority: standard
 Description: SSL library and cryptographic tools
 Name: OpenSSL
 
+Package: org.coolstar.semirestore11-lite
+Version: 11.0
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 11.0), firmware (<< 11.2)
+Filename: debs/org.coolstar.semirestore11-lite_11.0_iphoneos-arm.deb
+Size: 4528
+MD5sum: 3eceb58e5a0e86ec692c3972bd417167
+SHA1: 02b42aea4b3f4a4ffa380137132eded2ba4a5c22
+SHA256: 465616be190cf16208fa5c5675339af7b91a29d4f94ce78bbbe821ab03ea0708
+Section: System
+Priority: standard
+Description: Uninstall all installed tweaks and revert Electra to the state where it was immediately after jailbreaking
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: SemiRestore 11 Lite
+
 Package: org.coolstar.tweakinject
 Version: 1.0.4-1
 Architecture: iphoneos-arm
