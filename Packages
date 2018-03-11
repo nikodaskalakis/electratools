@@ -86,6 +86,21 @@ Homepage: http://www.oracle.com/technology/products/berkeley-db/index.html
 Description: Oracle's embeddable database engine
 Name: Berkeley DB
 
+Package: bootstrap-cmds
+Version: 98
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Filename: debs/bootstrap-cmds_98_iphoneos-arm.deb
+Size: 72856
+MD5sum: ae0c4eb5525058e4ad0378d38e0c2432
+SHA1: 178634e42a96fabbb21f1e6eb4b26c2ec4136f5f
+SHA256: 5e99fb08094cdef8a3e8cde5424397331b9875109390aa5d6324a5b69666d2d0
+Section: Development
+Priority: optional
+Description: Mach interface and stub generator
+Name: Bootstrap Commands
+
 Package: bzip2
 Version: 1.0.6
 Architecture: iphoneos-arm
@@ -291,6 +306,23 @@ Section: Security
 Priority: optional
 Description: LGPL cryptographic algorithm library
 Name: GNU Cryptography
+
+Package: git
+Version: 2.16.2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: curl, openssl, cy+cpu.arm64
+Filename: debs/git_2.16.2_iphoneos-arm.deb
+Size: 3319988
+MD5sum: f835286e348418bb2df3112e4c430192
+SHA1: 3cb757af7ecef42d86c88d8499d0e3f32bdaf7ec
+SHA256: 5293ac610095ec805ce1ff49a842b91f81bfb6a51632b09d6d147a2a2dd773a6
+Section: Data_Storage
+Priority: optional
+Description: fast content-addressable filesystem
+Tag: purpose::console, role::hacker
+Name: Git
 
 Package: gnupg
 Version: 1.4.22
