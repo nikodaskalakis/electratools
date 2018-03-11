@@ -387,6 +387,25 @@ Priority: required
 Homepage: http://www.gzip.org/
 Description: the standard Unix compression algorithm
 
+Package: inetutils
+Version: 1.9.4
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses, cy+cpu.arm64
+Replaces: coreutils (<< 7.2-6)
+Provides: hostname, ping, telnet
+Filename: debs/inetutils_1.9.4_iphoneos-arm.deb
+Size: 400778
+MD5sum: 03752dc8a78df342a62c59c49208eb29
+SHA1: ba0c57db8d36afa0f00be847d33a6c72534992e2
+SHA256: 8e3e8cf88c60a231b3dd31c0947c229a99a74a041f760174ebfa89261ce9f16b
+Section: Networking
+Priority: standard
+Homepage: http://www.gnu.org/software/inetutils/
+Description: ftp, inetd, ping, rlogin, telnet, tftp
+Tag: purpose::console, role::hacker
+
 Package: ldid
 Version: 2:1.2.2-coolstar
 Architecture: iphoneos-arm
