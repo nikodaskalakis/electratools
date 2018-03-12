@@ -518,16 +518,16 @@ Priority: standard
 Description: completely free, modern clone of Pico
 
 Package: ncurses
-Version: 5.9
+Version: 5.9-1
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: cy+cpu.arm64
-Filename: debs/ncurses_5.9_iphoneos-arm.deb
+Filename: debs/ncurses_5.9-1_iphoneos-arm.deb
 Size: 998256
-MD5sum: 84946bc518abad1b2c1c57ca0fd032c6
-SHA1: d54fd362d0820736cacd5efb4ea938ab40551c99
-SHA256: 7522094649197fb3f6a7afe602403b2bcc3f324633ebce8807a5be6620cd5bb3
+MD5sum: 016c4192b2743adb9a2ea5d0ae7de8cd
+SHA1: 8f5cb72431dd7bba7956d4ec8b4644f39be0019e
+SHA256: 829b546d7ec2ee69d3dde297287c76460ec95e310e54e8269b989fd475986a46
 Section: System
 Priority: required
 Description: feature-complete terminal library
