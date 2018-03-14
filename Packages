@@ -132,6 +132,25 @@ Description: Substrate substitute for code substitution (library only)
 Author: comex <comexk+da@gmail.com>
 Name: Substitute
 
+Package: coreutils
+Version: 8.28
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: bash, coreutils-bin (>= 7.4-5), profile.d, cy+cpu.arm64
+Replaces: netatalk (<= 2.0.3-6)
+Provides: md5sum, sha1sum
+Filename: debs/coreutils_8.28_iphoneos-arm.deb
+Size: 730320
+MD5sum: 0c42fcaf8c9967fe067e98e02e7b8ccb
+SHA1: 5a1e46751186f231e261606af162193e3baf8bae
+SHA256: 65d36b1b8a42efa0f1e0da4833ade0e7a84e07190a991386ca0ee26a6dd62beb
+Section: Utilities
+Priority: standard
+Homepage: http://www.gnu.org/software/coreutils/
+Description: core set of Unix shell utilities from GNU
+Name: Core Utilities
+
 Package: coreutils-bin
 Version: 8.28-1
 Architecture: iphoneos-arm
