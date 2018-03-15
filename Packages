@@ -133,18 +133,18 @@ Author: comex <comexk+da@gmail.com>
 Name: Substitute
 
 Package: coreutils
-Version: 8.28
+Version: 8.29
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: bash, coreutils-bin (>= 7.4-5), profile.d, cy+cpu.arm64
 Replaces: netatalk (<= 2.0.3-6)
 Provides: md5sum, sha1sum
-Filename: debs/coreutils_8.28_iphoneos-arm.deb
-Size: 730320
-MD5sum: 0c42fcaf8c9967fe067e98e02e7b8ccb
-SHA1: 5a1e46751186f231e261606af162193e3baf8bae
-SHA256: 65d36b1b8a42efa0f1e0da4833ade0e7a84e07190a991386ca0ee26a6dd62beb
+Filename: debs/coreutils_8.29_iphoneos-arm.deb
+Size: 694232
+MD5sum: a4ced848dec10fc38d1d240d2aacff9d
+SHA1: 2317201db2e8b2acf41119e3fd492c7221447694
+SHA256: cb07123f501a50da6ca65be74829a9014e8db85ca467e3fd06a09b5529b78212
 Section: Utilities
 Priority: standard
 Homepage: http://www.gnu.org/software/coreutils/
@@ -152,18 +152,18 @@ Description: core set of Unix shell utilities from GNU
 Name: Core Utilities
 
 Package: coreutils-bin
-Version: 8.28-1
+Version: 8.29
 Architecture: iphoneos-arm
 Essential: yes
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: cy+cpu.arm64
 Replaces: shell-cmds (<< 118-5), coreutils (<= 7.2-9)
 Provides: dirname, kill, mktemp
-Filename: debs/coreutils-bin_8.28-1_iphoneos-arm.deb
-Size: 377382
-MD5sum: ae16276fc006c6608bdb58a9ae804a35
-SHA1: 2f04747bc2b12201b7ca838fc0bf7e84f367b683
-SHA256: a1cbe1908f29a30a1cf30fff882fb5a4e374ef5cbc48ae39bb34539fd9eba150
+Filename: debs/coreutils-bin_8.29_iphoneos-arm.deb
+Size: 355516
+MD5sum: 919f80f695f3de78371589caa7642b54
+SHA1: 31bf97fb3d91cba914f7219ef48e09013ebca745
+SHA256: 24239fcb2398acf2cbd70c25120c4a395771325b7ebae1c949ec429f7174b712
 Section: Utilities
 Priority: required
 Homepage: http://www.gnu.org/software/coreutils/
