@@ -599,15 +599,15 @@ Author: CoolStar <coolstarorganization@gmail.com>
 Name: SemiRestore 11 Lite
 
 Package: org.coolstar.tweakinject
-Version: 1.0.5-1
+Version: 1.0.5-2
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 10.0), cy+cpu.arm64, com.ex.libsubstitute
-Filename: debs/org.coolstar.tweakinject_1.0.5-1_iphoneos-arm.deb
-Size: 18396
-MD5sum: ce32bea435184ca7a0a6fd6cce31801c
-SHA1: f80a83c3da2453156ab63e39e40569b771fea5eb
-SHA256: b94d18cdf81d374433269285c2898fc8741f1e3addac2b785de5f485fea7dc35
+Filename: debs/org.coolstar.tweakinject_1.0.5-2_iphoneos-arm.deb
+Size: 19184
+MD5sum: 6ba2652d6305076137603d132097f041
+SHA1: 62b7258d412e4f0db92047e1a59c12549fe62fd9
+SHA256: 42145fb18aae6d32d27fea412ff2cb415d0223dceea03f904ced72387a261d17
 Section: System
 Description: General purpose tweak loader with safe mode in case of crashes
 Author: CoolStar <coolstarorganization@gmail.com>
