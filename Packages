@@ -188,7 +188,7 @@ Description: flexible multi-protocol file transfers
 Name: cURL
 
 Package: cydia
-Version: 1.1.30-coolstar4
+Version: 1.1.30-coolstar5
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: debianutils, dpkg (>= 1.14.25-8)
@@ -196,11 +196,11 @@ Depends: apt7-lib, apt7-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, 
 Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Provides: bigbossbetarepo, cydia-sources
-Filename: debs/cydia_1.1.30-coolstar4_iphoneos-arm.deb
-Size: 1160002
-MD5sum: ec68ac2f26a83dc4eb31567e85e6f860
-SHA1: 2ce95f46b489e9ff3aaf2734061cb7eda00c5177
-SHA256: bb6930f31c0d1972a960cd4145060a15f7e7a1f9fbdf95482a659e96b2366536
+Filename: debs/cydia_1.1.30-coolstar5_iphoneos-arm.deb
+Size: 1159930
+MD5sum: b63f6bc172121629d9f1894512aee543
+SHA1: edef63d9019a6fdc6a1eaadb4ff5e30d76cbe296
+SHA256: 70d1630b0a168176c031934d7bf7808f6188a5661d9aa8ae92b5d95e4acee54f
 Section: Packaging
 Priority: required
 Description: graphical iPhone front-end for APT
