@@ -54,15 +54,15 @@ Description: the advanced packaging library from Debian
 Name: APT 0.7 Strict (lib)
 
 Package: bash
-Version: 4.4
+Version: 4.4-1
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: grep, ncurses, sed, cy+cpu.arm64
-Filename: debs/bash_4.4_iphoneos-arm.deb
-Size: 426784
-MD5sum: ba5cb6ce223b899075abb7dafd6e0764
-SHA1: a5159fdb07be92b4f83452af30517afba2256305
-SHA256: 4dded6132d623e1b7f1d741e4aa9c76208ab8c3b174a28a644ed555ba40756ff
+Filename: debs/bash_4.4-1_iphoneos-arm.deb
+Size: 405396
+MD5sum: 75a4b1f7ee91bee8b40044629159c68b
+SHA1: b88b68e592d544f459bc355792c52a67d479e174
+SHA256: 9cf470e1324529798650b389a4cb01f28960238567a0ea9e382cfeb9e7404f05
 Section: Terminal_Support
 Priority: required
 Homepage: http://www.gnu.org/software/bash/
