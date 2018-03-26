@@ -171,16 +171,16 @@ Description: just the /bin folder from GNU coreutils
 Name: Core Utilities (/bin)
 
 Package: curl
-Version: 7.50.1-2
+Version: 7.59.0
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: openssl, cy+cpu.arm64
-Filename: debs/curl_7.50.1-2_iphoneos-arm.deb
-Size: 456746
-MD5sum: c8698575a337c85b801b36dee04f9a0a
-SHA1: 5111d0f053cb0374305459271a0036946ac06038
-SHA256: e57c2e1362b857ae6a26346945eb286cf5dffc182dc2fd80ae46e230a057f290
+Depends: openssl, nghttp2, cy+cpu.arm64
+Filename: debs/curl_7.59.0_iphoneos-arm.deb
+Size: 292946
+MD5sum: 9bc83c0c09d25651ded3d5301ee08c45
+SHA1: 8c53898c050efbd6c745b322ee39ec8878c80c36
+SHA256: c346cea03d2bc93a917dd09cf396d39b1e62fd20962b3c92acff7f5d8c8be05d
 Section: Networking
 Priority: standard
 Homepage: http://curl.haxx.se/
@@ -532,6 +532,23 @@ Section: System
 Priority: required
 Description: feature-complete terminal library
 Name: New Curses
+
+Package: nghttp2
+Version: 1.31.0
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.24-8)
+Depends: cy+cpu.arm64
+Filename: debs/nghttp2_1.31.0_iphoneos-arm.deb
+Size: 80858
+MD5sum: 479b593ca3e9d893dc42d567655142df
+SHA1: b3d3afbb9640b8108dcc763ee150a89b43bcf7d2
+SHA256: e956583a0015bb648138ef6cc73faa0daf29d4145b79738f7322a5247f570a42
+Section: Networking
+Priority: standard
+Homepage: https://nghttp2.org/
+Description: HTTP/2 C library
+Name: Nghttp2
 
 Package: npth
 Version: 1.5
