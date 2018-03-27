@@ -171,16 +171,16 @@ Description: just the /bin folder from GNU coreutils
 Name: Core Utilities (/bin)
 
 Package: curl
-Version: 7.59.0
+Version: 7.59.0-1
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: openssl, nghttp2, cy+cpu.arm64
-Filename: debs/curl_7.59.0_iphoneos-arm.deb
-Size: 292946
-MD5sum: 9bc83c0c09d25651ded3d5301ee08c45
-SHA1: 8c53898c050efbd6c745b322ee39ec8878c80c36
-SHA256: c346cea03d2bc93a917dd09cf396d39b1e62fd20962b3c92acff7f5d8c8be05d
+Filename: debs/curl_7.59.0-1_iphoneos-arm.deb
+Size: 291298
+MD5sum: c3a659c6ff4a328c8ddc5ffac9d37bed
+SHA1: a42b75b154373cfe2872ffac36f1aae5e11469db
+SHA256: 6fb066764d956f503fac1214875a04ff7c66530f98f6e2f9898c9889bef226f3
 Section: Networking
 Priority: standard
 Homepage: http://curl.haxx.se/
