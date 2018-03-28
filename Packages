@@ -259,6 +259,22 @@ Homepage: http://www.gnu.org/software/diffutils/
 Description: compare two files for differences
 Name: Diff Utilities
 
+Package: diskdev-cmds
+Version: 593
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware-sbin, cy+cpu.arm64
+Filename: debs/diskdev_cmds_593_iphoneos-arm.deb
+Size: 48496
+MD5sum: ad71d5ee298c8bdc911ebe673cca73bb
+SHA1: 740e9a400d2dd48151426a5e92b1a7691dcbc01e
+SHA256: 9a30f213c7c825018dd0c22fa23034f1651d6067812dabc306cae2e503a39ecd
+Section: System
+Priority: required
+Description: mount, quota, fsck, fstyp, fdisk, tunefs
+Tag: purpose::console, role::hacker
+
 Package: dpkg
 Version: 1.18.24
 Architecture: iphoneos-arm
