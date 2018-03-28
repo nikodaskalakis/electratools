@@ -323,6 +323,22 @@ Homepage: http://wiki.debian.org/Teams/Dpkg
 Description: package maintenance tools from Debian
 Name: Debian Packager
 
+Package: file-cmds
+Version: 272
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64
+Filename: debs/file_cmds_272_iphoneos-arm.deb
+Size: 63476
+MD5sum: 01023b9edc0650e43b924e622d871b03
+SHA1: 98d4f3bc298ec8caca45985592af66aeff889e65
+SHA256: 315836da40b9ed95f93dd091e60fdb0fa7ce8b5d0bd1d45eb1e53e4941cb534d
+Section: Utilities
+Priority: important
+Description: chflags, compress, ipcrm, ipcs, pax
+Tag: purpose::console, role::hacker
+
 Package: findutils
 Version: 4.6
 Architecture: iphoneos-arm
@@ -724,6 +740,23 @@ Description: optimize PNGs just like Apple does
 Tag: purpose::console, role::hacker
 Author: Dustin Howett <dustin@howett.net>
 Name: pincrush
+
+Package: rsync
+Version: 3.1.3
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64
+Filename: debs/rsync_3.1.3_iphoneos-arm.deb
+Size: 209420
+MD5sum: 31374a7f36ea8c353e2b769292793b09
+SHA1: 673647425142f3b70da78e7e4aac5720ff9498f1
+SHA256: fb0c58476aca2943a2434f9244afc8acd1bd8401625203aa98ded67a73c32fc4
+Section: Networking
+Priority: important
+Homepage: http://www.samba.org/rsync/
+Description: synchronize files between computers
+Tag: purpose::console, role::hacker
 
 Package: sed
 Version: 4.2.2
