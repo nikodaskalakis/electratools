@@ -1,3 +1,20 @@
+Package: adv-cmds
+Version: 172
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses, cy+cpu.arm64
+Provides: ps
+Filename: debs/adv_cmds_172_iphoneos-arm.deb
+Size: 58542
+MD5sum: 6e0d4a8d9b67c274df53e950afaccdf2
+SHA1: b804f8d8a8240831cfe8af3f5ed56162522415db
+SHA256: 7949910c05a8eae37f8b9e96bf5058aa789d964524c42c50160538b9c26f14e1
+Section: Administration
+Priority: important
+Description: finger, fingerd, last, lsvfs, md, ps
+Tag: purpose::console, role::hacker
+
 Package: apt7
 Version: 0.7.25.3-9
 Architecture: iphoneos-arm
