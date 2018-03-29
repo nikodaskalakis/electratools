@@ -629,6 +629,23 @@ Priority: required
 Description: feature-complete terminal library
 Name: New Curses
 
+Package: network-cmds
+Version: 543
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware (>= 10.0), cy+cpu.arm64, inetutils
+Filename: debs/network_cmds_543_iphoneos-arm.deb
+Size: 91794
+MD5sum: a22ca80f02fa990d74270c1121fc23c0
+SHA1: 29510264c2103e189c9d61334990b929476b8c2a
+SHA256: 04eb7fd2f88fcd1156d4e7fd8140de8ceb94ea127572de5202f05867c306fedc
+Section: Networking
+Priority: important
+Description: arp, ifconfig, netstat, route, traceroute
+Tag: purpose::console, role::hacker
+Name: Network Commands
+
 Package: nghttp2
 Version: 1.31.0
 Architecture: iphoneos-arm
