@@ -274,6 +274,21 @@ Priority: required
 Description: pretty much just run-parts. yep? run-parts
 Name: Debian Utilities
 
+Package: developer-cmds
+Version: 63
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Filename: debs/developer_cmds_63_iphoneos-arm.deb
+Size: 52766
+MD5sum: ccaa01dbb3c0dadccf683a78da58c2c7
+SHA1: 1f19e36716360a97b5004dfdd71a64fc710a6384
+SHA256: c86f701f281cf793b4d94cfcb8c57bf85da4805eae3810acdc05abecee451e3b
+Section: Development
+Priority: important
+Description: ctags, hexdump, rpcgen, unifdef
+Tag: purpose::console, role::developer
+
 Package: diffutils
 Version: 3.6
 Architecture: iphoneos-arm
