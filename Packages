@@ -355,6 +355,22 @@ Homepage: http://www.gnu.org/software/findutils/
 Description: indexes and searches filesystems
 Name: Find Utilities
 
+Package: gawk
+Version: 4.2.1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Filename: debs/gawk_4.2.1_iphoneos-arm.deb
+Size: 265062
+MD5sum: 9faafaedc6854666e7e39f751547ab69
+SHA1: 4cd0e1a49206be73288cc5f0b22e1647e237c32b
+SHA256: 2724cde792ce46edf0b0ae97de38df55647867b83b9d8f4d79891b1772ec61e2
+Section: Utilities
+Priority: important
+Description: GNU's heavy-weight implementation of awk
+Tag: purpose::console, role::hacker
+Name: Gawk
+
 Package: gcrypt
 Version: 1.8.2
 Architecture: iphoneos-arm
@@ -468,6 +484,22 @@ Priority: standard
 Homepage: http://www.gnu.org/software/inetutils/
 Description: ftp, inetd, ping, rlogin, telnet, tftp
 Tag: purpose::console, role::hacker
+
+Package: iokittools
+Version: 108
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: ncurses, cy+cpu.arm64
+Filename: debs/iokittools_108_iphoneos-arm.deb
+Size: 11094
+MD5sum: def05c9514a479e0ffb37c6d29b3a977
+SHA1: 7b5251ec7fd6d536b026cac1525df2bec643d85e
+SHA256: a68314a360e53d71c4c841a1bba67e36c7249d431a89e6f5a15c7959af5b6778
+Section: Administration
+Priority: important
+Description: ioalloccount, ioclasscount, ioreg
+Tag: purpose::console, role::hacker
+Name: IOKit Tools
 
 Package: ldid
 Version: 2:1.2.2-coolstar
@@ -758,6 +790,21 @@ Priority: optional
 Description: A port of 7za.exe for POSIX systems like Unix
 Tag: purpose::console, role::hacker
 Name: 7-zip (POSIX)
+
+Package: patch
+Version: 2.7.6
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Filename: debs/patch_2.7.6_iphoneos-arm.deb
+Size: 85534
+MD5sum: b63507bb28254441891b0602fa63ee3d
+SHA1: f95b60598d31c1ed2b8eb602b85058abd2cbe1df
+SHA256: a4b8d55aa8b4990a1f7aebb2a169a96da6ae6b3f91a5e48fca5710864921f15e
+Section: Development
+Priority: important
+Description: merge a difference onto a file
+Tag: purpose::console, role::hacker
 
 Package: pincrush
 Version: 0.9.2-2
