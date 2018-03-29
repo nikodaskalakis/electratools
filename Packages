@@ -487,6 +487,24 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/ldid/
 Name: Link Identity Editor
 
+Package: less
+Version: 530
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg
+Depends: ncurses, cy+cpu.arm64
+Replaces: system-cmds (<= 433.4-11)
+Provides: more
+Filename: debs/less_530_iphoneos-arm.deb
+Size: 101266
+MD5sum: ef61170d6f6ca4ea69d04e6f039978fb
+SHA1: 503b6ed98c906fe86fb97064736126ee9c48a7ff
+SHA256: e845bf5589400ed48d5df17bf5b2db11999cec0f648f01a62acfdb144059a90e
+Section: Utilities
+Priority: important
+Description: provides less information than more does
+Tag: purpose::console, role::hacker
+
 Package: libassuan
 Version: 2.5.1
 Architecture: iphoneos-arm
@@ -757,6 +775,22 @@ Priority: important
 Homepage: http://www.samba.org/rsync/
 Description: synchronize files between computers
 Tag: purpose::console, role::hacker
+
+Package: screen
+Version: 4.6.2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: ncurses, cy+cpu.arm64
+Filename: debs/screen_4.6.2_iphoneos-arm.deb
+Size: 373556
+MD5sum: 8e3f7178a47eb0deb9933886a5e3e267
+SHA1: 6b38a3bb7beb9f98e00b23afb195faca86771264
+SHA256: 310644b132be35b45f5210d54f3cf63e3f724d0edba499fa5dad20b0b409209f
+Section: Terminal_Support
+Priority: important
+Description: multiplexes a terminal into many
+Tag: purpose::console, role::hacker
+Name: Screen
 
 Package: sed
 Version: 4.2.2
