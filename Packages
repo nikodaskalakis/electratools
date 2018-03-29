@@ -955,6 +955,22 @@ Description: universally unique identifiers
 Tag: purpose::library, purpose::console, role::developer
 Name: UUID Generator
 
+Package: vim
+Version: 8.0.1655
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: ncurses, cy+cpu.arm64
+Filename: debs/vim_8.0.1655_iphoneos-arm.deb
+Size: 5424564
+MD5sum: 719cba7b363bf0ba3e6c3c1ff9417978
+SHA1: f34821c4ddf52956768bcb7116313b41225f2f67
+SHA256: 0ed29e1f7b88ba74632170df6a4687cd5742d90813829f2949e457c94111b8ad
+Section: Text_Editors
+Priority: standard
+Description: the best syntax highlighter, ever
+Tag: purpose::console, role::hacker
+Name: Vi IMproved
+
 Package: wget
 Version: 1.19
 Architecture: iphoneos-arm
