@@ -147,32 +147,6 @@ Priority: important
 Homepage: http://www.bzip.org/
 Description: compression that's slightly better than gzip
 
-Package: com.anemonetheming.anemone
-Version: 2.1.7-2
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 8311
-Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), com.rpetrich.rocketbootstrap, pincrush
-Conflicts: org.coolstar.themelib, anemoneteam.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
-Replaces: org.coolstar.themelib, anemoneteam.anemone, org.coolstar.classicdock, winterboard, org.coolstar.classicbadges, com.codethemed.iconbundles, com.idd.iconomatic
-Provides: org.coolstar.themelib, anemoneteam.anemone, org.coolstar.classicdock, winterboard, org.coolstar.classicbadges, org.coolstar.customclock, com.codethemed.iconbundles, com.idd.iconomatic
-Filename: debs/com.anemonetheming.anemone_2.1.7-2_iphoneos-arm.deb
-Size: 4125296
-MD5sum: 3e81ef3afb7f7118424fe35da7ccdb11
-SHA1: 01282ad56290dda9030782cd90db982343c5dfb2
-SHA256: f1f854cdc7b2cc16ee46fcfe8b82a226fcbfa92083427914b7f43b436319d227
-Section: Tweaks
-Priority: optional
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=anemoneDp
-Description: An awesome theme manager!
-Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
-Author: AnemoneTeam <anemonetheming@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=anemoneDp
-Dev: anemonetheming
-Icon: file:///Applications/Anemone.app/icon.png
-Name: Anemone
-Sponsor: thebigboss.org <http://thebigboss.org>
-
 Package: com.ex.libsubstitute
 Version: 0.0.5-coolstar
 Architecture: iphoneos-arm
