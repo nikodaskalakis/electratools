@@ -338,6 +338,21 @@ Homepage: http://wiki.debian.org/Teams/Dpkg
 Description: package maintenance tools from Debian
 Name: Debian Packager
 
+Package: file
+Version: 3.3
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Filename: debs/file_3.3_iphoneos-arm.deb
+Size: 250146
+MD5sum: 1a0bd8ce0fa50f7a77204e6931772d76
+SHA1: c3cdc0ef8c5acbe094ee5bb17f445f66c4668d5c
+SHA256: d6c9338c0f83cb1de1721797d26cccc2a1610485c344ea84b9632a0c1d960a9d
+Section: Utilities
+Priority: important
+Description: guesses the type of a file from contents
+Tag: purpose::console, role::hacker
+
 Package: file-cmds
 Version: 272
 Architecture: iphoneos-arm
@@ -920,6 +935,21 @@ Homepage: http://www.dest-unreach.org/socat/
 Description: "netcat++" (post-increment, not pre-)
 Tag: purpose::console, role::hacker
 Name: SOcket CAT
+
+Package: sudo
+Version: 1.8.17p1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Filename: debs/sudo_1.8.17p1_iphoneos-arm.deb
+Size: 205646
+MD5sum: ae6ed31a02bad1f6892237ccff10945e
+SHA1: 73d7d9516c76c87a18a5740fd2d7017b9b14cd37
+SHA256: e8f5952158d3b510e44081a54a3dc742476e63d4321a567d8e9668c064afb9bf
+Section: Administration
+Priority: standard
+Description: temporarily assume root privileges
+Tag: purpose::console, role::hacker
 
 Package: system-cmds
 Version: 790
