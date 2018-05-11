@@ -16,41 +16,41 @@ Description: finger, fingerd, last, lsvfs, md, ps
 Tag: purpose::console, role::hacker
 
 Package: apt7
-Version: 0.7.25.3-9
+Version: 1.4.8
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: apt7-key, apt7-lib (>= 0.7.25.3-7), berkeleydb, cy+cpu.arm64
+Depends: apt7-key, apt7-lib (>= 1.4.8), berkeleydb, cy+cpu.arm64
 Replaces: apt (<< 1:0-1)
-Filename: debs/apt/apt7_0.7.25.3-9_iphoneos-arm.deb
-Size: 359886
-MD5sum: 4b56a509852c659f3f80cb144c1cda00
-SHA1: 627fef1dfbd7ebebebfbc7406667343ac24db662
-SHA256: 24a9df56034b14ba2b8f69f27b2eef753ee8a7301cb96da305f3594a7086934b
+Filename: debs/apt/apt7_1.4.8_iphoneos-arm.deb
+Size: 261906
+MD5sum: 8fcaf3e5f2199cf771b889a22a077955
+SHA1: 7f262df1e40c4e55209d78f49521459602b307b9
+SHA256: 52b9fd9cc3d026d3d5816fde2a5fc9967e435f50b9304c30dfb92709cb880420
 Section: Packaging
 Priority: standard
 Description: the advanced packaging tool from Debian
-Name: APT 0.7 Strict
+Name: APT 1.4 Strict
 
 Package: apt7-key
-Version: 0.7.25.3-4
+Version: 1.4.8
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: apt7-lib (>= 0.7.25.3-7), cy+cpu.arm64
+Depends: apt7-lib (>= 1.4.8), cy+cpu.arm64
 Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-4)
-Filename: debs/apt/apt7-key_0.7.25.3-4_iphoneos-arm.deb
-Size: 8278
-MD5sum: 4d9af8cc58418d59664e1da983c98d48
-SHA1: 76339cd5ec7f95a1ba4c605161711953c8ba5a03
-SHA256: e4ac6cc2a5a3a803097a8cd654c69bcf540e44fb5591940d2279648a25d766b7
+Filename: debs/apt/apt7-key_1.4.8_iphoneos-arm.deb
+Size: 8426
+MD5sum: 23adc700346aa9d173ec425c50d5dbe2
+SHA1: 6d9c68a135ea7b8bc0b7d5639d405e703df8f78d
+SHA256: 9f0743e354e6c9350c17100994ee5e8a71eba807a13f79752cbd75dfbbe0fa83
 Section: Packaging
 Priority: standard
 Description: repository encryption key management tool
-Name: APT 0.7 (apt-key)
+Name: APT 1.4 (apt-key)
 
 Package: apt7-lib
-Version: 0.7.25.3-17-coolstar
+Version: 1.4.8
 Architecture: iphoneos-arm
 Essential: yes
 Maintainer: CoolStar <coolstarorganization@gmail.com>
@@ -60,15 +60,15 @@ Conflicts: apt7-ssl
 Breaks: cydia (<< 1.1.10), apt7 (<< 0.7.25.3-7), aptitude (<< 0.4.11.11-6)
 Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-3), apt7-ssl
 Provides: apt7-ssl
-Filename: debs/apt/apt7-lib_0.7.25.3-17-coolstar_iphoneos-arm.deb
-Size: 1352510
-MD5sum: 1460516cdcf5b122dfb4fb90bdbefef5
-SHA1: d01091ae61a4db4c128cd70804b42c2f5f3c8b10
-SHA256: 4b4d35f2902d2ee7981e10f7df82dfc2d37ffea5b6ac32fa07fde9faf8aa0e3b
+Filename: debs/apt/apt7-lib_1.4.8_iphoneos-arm.deb
+Size: 1355460
+MD5sum: 94282a558b7efe6351fb695c544d0230
+SHA1: e7433852b61358963a848d6034e9be2329be0dd9
+SHA256: 4cb1467b2c4259d419cc2073f7b8b4f26e4d8e0f3452ba3c2bb4e84dd296e749
 Section: Packaging
 Priority: required
 Description: the advanced packaging library from Debian
-Name: APT 0.7 Strict (lib)
+Name: APT 1.4 Strict (lib)
 
 Package: bash
 Version: 4.4-1
