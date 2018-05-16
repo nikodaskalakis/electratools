@@ -1065,15 +1065,15 @@ Tag: purpose::library, purpose::console, role::developer
 Name: UUID Generator
 
 Package: vim
-Version: 8.0.1655
+Version: 8.0.1848
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: ncurses, cy+cpu.arm64
-Filename: debs/vim_8.0.1655_iphoneos-arm.deb
-Size: 5424564
-MD5sum: 719cba7b363bf0ba3e6c3c1ff9417978
-SHA1: f34821c4ddf52956768bcb7116313b41225f2f67
-SHA256: 0ed29e1f7b88ba74632170df6a4687cd5742d90813829f2949e457c94111b8ad
+Filename: debs/vim_8.0.1848_iphoneos-arm.deb
+Size: 5532472
+MD5sum: f18d7df614919405dd1891ee2dac2a97
+SHA1: d650cfa30d73980f0a050a2a848675cbddc3f6ed
+SHA256: 35d8db58bfacf79d899935aaaf0f8f10680194230420bfe6859f28a2aefcc3ba
 Section: Text_Editors
 Priority: standard
 Description: the best syntax highlighter, ever
