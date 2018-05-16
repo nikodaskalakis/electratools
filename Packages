@@ -614,15 +614,15 @@ Description: GnuPG's certification management library
 Name: KSBA
 
 Package: lsof
-Version: 62
+Version: 62-1
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: ncurses, cy+cpu.arm64
-Filename: debs/lsof_62_iphoneos_arm.deb
-Size: 46500
-MD5sum: 70c542c77fd7439568218d08a9fac225
-SHA1: 57a0e264ce6b3da946935eb9d879154414efec6f
-SHA256: a63c8470827d37e93c80652fbf7a7ed53947b47698408c6db365774675cab1c7
+Filename: debs/lsof_62-1_iphoneos_arm.deb
+Size: 46210
+MD5sum: 9ec67bd73c06a55c029481b9d0ddf187
+SHA1: 6a936aa488d712cb8a719998e491da7fa07e5a20
+SHA256: dd49f989dcabe9e5a89d180dd6e7c9e7d0d6adfa550ff63a95a09391ed137cb5
 Section: Administration
 Priority: standard
 Description: shows what files programs have open
