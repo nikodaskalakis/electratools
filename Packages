@@ -661,16 +661,16 @@ Tag: purpose::console, role::hacker
 Name: Make
 
 Package: nano
-Version: 2.9.1-1
+Version: 2.9.7
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: ncurses, cy+cpu.arm64
-Filename: debs/nano_2.9.1-1_iphoneos-arm.deb
-Size: 216512
-MD5sum: d9db1b93c732f8460f46b0a51808b77a
-SHA1: 477027c7c58984dc2818c4534937981e99c374f8
-SHA256: 2b4b97d6906d7f326bda3842819aea4163e70e2d5a39c3e15555608fd0c14afd
+Filename: debs/nano_2.9.7_iphoneos-arm.deb
+Size: 170408
+MD5sum: b20aa0c3ff1e768112257aa17440d39c
+SHA1: b3e719ab65c92c97f2693ab01a05b3fe7f60f7ca
+SHA256: 00af0ec640a45730a95ef0baae92a816e5728d43eb6e7fca94daa229e7df522e
 Section: Text_Editors
 Priority: standard
 Description: completely free, modern clone of Pico
