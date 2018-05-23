@@ -188,13 +188,14 @@ Architecture: iphoneos-arm
 Essential: yes
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: cy+cpu.arm64
+Conflicts: coreutils (<= 8.29)
 Replaces: shell-cmds (<< 118-5), coreutils (<= 7.2-9)
 Provides: dirname, kill, mktemp
 Filename: debs/coreutils-bin_8.29-1_iphoneos-arm.deb
-Size: 387184
-MD5sum: d294a95021237ee6ebc60526b5a858d8
-SHA1: 820473e92bf57dd92ee6c0f35fa3591558e889e5
-SHA256: f6ca78a89caf68fabc4e4f5d04aaf429f228d168ef70925eec2daf6bd46b5873
+Size: 386906
+MD5sum: 7750426aff5f58a8ec1277768a957f4c
+SHA1: 0bde33632130ac93ae9ef6c32843a639b85365cd
+SHA256: db50882668b480e8e87829484126bc7a1b5f66db7c2ff1d89f8a02c9c1874435
 Section: Utilities
 Priority: required
 Homepage: http://www.gnu.org/software/coreutils/
@@ -617,12 +618,12 @@ Package: lsof
 Version: 62-1
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
-Depends: ncurses, cy+cpu.arm64
+Depends: ncurses (>=6.1), cy+cpu.arm64
 Filename: debs/lsof_62-1_iphoneos_arm.deb
-Size: 46210
-MD5sum: 9ec67bd73c06a55c029481b9d0ddf187
-SHA1: 6a936aa488d712cb8a719998e491da7fa07e5a20
-SHA256: dd49f989dcabe9e5a89d180dd6e7c9e7d0d6adfa550ff63a95a09391ed137cb5
+Size: 46166
+MD5sum: 7cdf0566afdf5d397dea785ba09e5da9
+SHA1: 1a09047f145d4695324dbaed5d1e41fc9ee1a02a
+SHA256: dbc8ab10439a043e5644473e36bf32cf7c2a4aeb4c027fa8ee5e9705c70c52c3
 Section: Administration
 Priority: standard
 Description: shows what files programs have open
@@ -665,12 +666,12 @@ Version: 2.9.7
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: ncurses, cy+cpu.arm64
+Depends: ncurses (>=6.1), cy+cpu.arm64
 Filename: debs/nano_2.9.7_iphoneos-arm.deb
-Size: 170408
-MD5sum: b20aa0c3ff1e768112257aa17440d39c
-SHA1: b3e719ab65c92c97f2693ab01a05b3fe7f60f7ca
-SHA256: 00af0ec640a45730a95ef0baae92a816e5728d43eb6e7fca94daa229e7df522e
+Size: 170390
+MD5sum: ce04eef7013963705b7edd4dddb739c3
+SHA1: 6aaf978e9e22f67e93ed1c93f9869c7a67a3f3af
+SHA256: 7a6b597c6b52f5176c307e0dba5fdb0f0b5e70640af2279abddf69e390e89398
 Section: Text_Editors
 Priority: standard
 Description: completely free, modern clone of Pico
@@ -1068,12 +1069,12 @@ Package: vim
 Version: 8.0.1848
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
-Depends: ncurses, cy+cpu.arm64
+Depends: ncurses (>=6.1), cy+cpu.arm64
 Filename: debs/vim_8.0.1848_iphoneos-arm.deb
-Size: 5532472
-MD5sum: f18d7df614919405dd1891ee2dac2a97
-SHA1: d650cfa30d73980f0a050a2a848675cbddc3f6ed
-SHA256: 35d8db58bfacf79d899935aaaf0f8f10680194230420bfe6859f28a2aefcc3ba
+Size: 5520672
+MD5sum: 99216eac7b3272b0b94924e22386f330
+SHA1: 49a76935104d83f3a067bc98ac21070e23080875
+SHA256: 89ed3e57e01ee8733f0417c28bbc53c1b2304b6de0c55399e8037471cbdc989a
 Section: Text_Editors
 Priority: standard
 Description: the best syntax highlighter, ever
