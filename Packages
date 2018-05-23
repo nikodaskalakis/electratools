@@ -3,13 +3,13 @@ Version: 172
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: ncurses, cy+cpu.arm64
+Depends: cy+cpu.arm64
 Provides: ps
 Filename: debs/adv_cmds_172_iphoneos-arm.deb
-Size: 58542
-MD5sum: 6e0d4a8d9b67c274df53e950afaccdf2
-SHA1: b804f8d8a8240831cfe8af3f5ed56162522415db
-SHA256: 7949910c05a8eae37f8b9e96bf5058aa789d964524c42c50160538b9c26f14e1
+Size: 58578
+MD5sum: 84d85b731641f8d717ebcd44dbb78166
+SHA1: b83d5a3bae2e74f9cf52447c34a3b405cbd22d96
+SHA256: 7b1c8b2ef5910abeb8728274530133275cb3a1d699a38f09fe7935238e5739bb
 Section: Administration
 Priority: important
 Description: finger, fingerd, last, lsvfs, md, ps
@@ -327,12 +327,12 @@ Version: 1.18.24
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: tar (>= 1.23)
-Depends: bash, bzip2, coreutils-bin, diffutils, findutils, gzip, lzma, ncurses, tar, cy+cpu.arm64
+Depends: bash, bzip2, coreutils-bin, diffutils, findutils, gzip, lzma, tar, cy+cpu.arm64
 Filename: debs/dpkg_1.18.24_iphoneos-arm.deb
-Size: 745034
-MD5sum: 10734aebcd614b977ee1445741cf141d
-SHA1: 48b70ec56a1f08e02891240416ad97db14e91f56
-SHA256: e912105ced64ca9066f176ef77208ec975e96339fbc6f6e7ea4ec59758542b08
+Size: 380772
+MD5sum: aae840b9441a03e8ef367cc7832d4a28
+SHA1: 6375f6fd44714145c6df629ed035725784d7569a
+SHA256: eefaf3e78bd95389baac7d9e058aac11975c30a8861d2c5fa9e445a74724fbd0
 Section: Packaging
 Priority: required
 Homepage: http://wiki.debian.org/Teams/Dpkg
