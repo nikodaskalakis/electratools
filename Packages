@@ -50,7 +50,7 @@ Description: repository encryption key management tool
 Name: APT 1.4 (apt-key)
 
 Package: apt7-lib
-Version: 1.4.8
+Version: 1.4.8-1
 Architecture: iphoneos-arm
 Essential: yes
 Maintainer: CoolStar <coolstarorganization@gmail.com>
@@ -60,11 +60,11 @@ Conflicts: apt7-ssl
 Breaks: cydia (<< 1.1.10), apt7 (<< 0.7.25.3-7), aptitude (<< 0.4.11.11-6)
 Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-3), apt7-ssl
 Provides: apt7-ssl
-Filename: debs/apt/apt7-lib_1.4.8_iphoneos-arm.deb
-Size: 1355460
-MD5sum: 94282a558b7efe6351fb695c544d0230
-SHA1: e7433852b61358963a848d6034e9be2329be0dd9
-SHA256: 4cb1467b2c4259d419cc2073f7b8b4f26e4d8e0f3452ba3c2bb4e84dd296e749
+Filename: debs/apt/apt7-lib_1.4.8-1_iphoneos-arm.deb
+Size: 1412420
+MD5sum: 86c1b03ad5b83f59efc08333c532b917
+SHA1: 871f97c90084a85ef2796cf528e66dca0fd28dbf
+SHA256: 6ebe75144ec1e915bd4d5660eb2a6995b134194f6e9e6aa1ceee69bb8f183e00
 Section: Packaging
 Priority: required
 Description: the advanced packaging library from Debian
