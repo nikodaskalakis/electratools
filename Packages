@@ -439,12 +439,12 @@ Version: 1.4.22
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: ncurses, cy+cpu.arm64
+Depends: cy+cpu.arm64
 Filename: debs/gnupg_1.4.22_iphoneos-arm.deb
-Size: 483558
-MD5sum: 8f70ba83262ab718d98a66c3178e5e9b
-SHA1: 1124caf974658a7a5393c5ef2020add032e78f3c
-SHA256: 496ca12563642c434bd4bdefce630e836762db647447216ad3f04c5f19e6ed51
+Size: 482956
+MD5sum: c3e4c509a6e58dd8d5226ccbcb939fce
+SHA1: d9169ba622ba0eabd74acf4b2ceb4d2c511de8fa
+SHA256: 3d5404340e694279a427e7d8379134a1f4980c3100a949459f2e295e37b3a53d
 Section: Security
 Priority: required
 Homepage: http://www.gnupg.org/
